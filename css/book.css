@@ -1,0 +1,166 @@
+/* unvisited link */
+a:link {
+    color: initial;
+}
+
+/* visited link */
+a:visited {
+    color: initial;
+}
+
+/* mouse over link */
+a:hover {
+    color: initial;
+}
+
+/* selected link */
+a:active {
+    color: initial;
+}
+
+.audio-button-start, .audio-button-pause, .audio-button-resume {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: 36px 36px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(38, 38, 38, 0.9);
+}
+
+.audio-button-start {
+    background-image: url("../images/AudioStart.svg");
+}
+
+.audio-button-pause {
+    background-image: url("../images/AudioPause.svg");
+}
+
+.audio-button-resume {
+    background-image: url("../images/AudioResume.svg");
+}
+
+.audio-button-centrator {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-button-progress-svg {
+    display: block;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin: 0px;
+}
+sub{
+	vertical-align: -10%;
+	font-size: 67%;
+}
+sup{
+	vertical-align: 33%;
+	font-size: 67%;
+}
+td{
+	overflow: hidden;
+}
+.s1{
+	width: 1024.0px;
+	height: 768.0px;
+	background: #FDC700;
+}
+.s2{
+	width: 1024.0px;
+	height: 768.0px;
+	background: #FFFFFF;
+}
+.p1{
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: normal;
+	font-size: 16.0px;
+	font-family: "Helvetica Neue";
+	color: #000000;
+	letter-spacing: 0.000em;
+	text-transform: none;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 0;
+	hyphens: none;
+	-webkit-hyphens: none;
+	-webkit-text-stroke-color: initial;
+	-webkit-text-stroke-width: initial;
+	text-shadow: none;
+}
+.p2{
+	font-size: 41.0px;
+}
+.p3{
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: normal;
+	font-size: 16.0px;
+	font-family: "Helvetica Neue";
+	color: #000000;
+	letter-spacing: 0.000em;
+	text-transform: none;
+	font-variant: normal;
+	text-align: left;
+	text-indent: 0;
+	hyphens: none;
+	-webkit-hyphens: none;
+	-webkit-text-stroke-color: initial;
+	-webkit-text-stroke-width: initial;
+	text-shadow: none;
+}
+.p4{
+	font-weight: 700;
+	font-size: 39.0px;
+}
+.p5{
+	font-weight: 700;
+	font-size: 36.0px;
+}
+.p6{
+	font-weight: 700;
+	font-size: 69.0px;
+}
+.p7{
+	font-size: 115.0px;
+}
+.p8{
+	font-style: italic;
+	font-size: 45.0px;
+}
+.c1{
+	font-size: 1px;
+}
+.c2{
+	font-size: 16.0px;
+	background: transparent;
+}
+.c3{
+	font-size: 107.0px;
+}
+.body {
+}
+.underline {
+	text-decoration: underline;
+}
+.orientation-opposed .underline {
+	text-decoration: overline;
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+.underline-strikethrough {
+	text-decoration: underline line-through;
+}
+.orientation-opposed .underline-strikethrough {
+	text-decoration: overline line-through;
+}
